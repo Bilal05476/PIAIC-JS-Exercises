@@ -1,6 +1,3 @@
-// Exercies 2
-// var person = "John";
-// document.write(`Hello ${person}, would you like to eat something? <br />`);
 
 // Exercise 3
 // var person = "smith";
@@ -506,3 +503,53 @@
 //   return `${magician} <br />`;
 // }
 // magicians.map((item) => document.write(show_magicians(item)));
+
+// Exercise 42
+// var magicians = ["kallie", "brownie", "Loodi"];
+// function show_magicians(magician) {
+//   return `Great ${magician} <br />`;
+// }
+// magicians.map((item) => document.write(show_magicians(item)));
+
+// Exercise 43
+// var magicians = ["kallie", "brownie", "Loodi"];
+// var newMagicians = [];
+// function show_magicians(magician) {
+//   newMagicians.push(`Great ${magician}`);
+// }
+// document.write(`Original Magicians: ${magicians} <br />`);
+// magicians.map((item) => show_magicians(item));
+// document.write(`New Magicians: ${newMagicians} <br />`);
+
+// Exercise 44
+// function make_sandwitch(ingredients) {
+//   document.write(
+//     `Person order a sandwitch with these ingredients: ${ingredients}. <br />`
+//   );
+// }
+// make_sandwitch(["tomato", "cacumber", "egg"]);
+// make_sandwitch(["tomato", "cacumber", "BBG chicken", "salad leave"]);
+// make_sandwitch(["tomato", "cacumber", "egg", "sauce", "cream"]);
+
+// Exercise 45
+// var car1, car2;
+
+// function make_car(manufacturer, modelName, options = {}) {
+//   const cars = {
+//     manufacturer,
+//     modelName,
+//     options,
+//   };
+//   return cars;
+// }
+
+// car1 = make_car("honda", "civic", {
+//   color: "black",
+// });
+// console.log(car1);
+// car2 = make_car("honda", "accord", {
+//   year: 2023,
+//   color: "white",
+//   headlights: "popup",
+// });
+// console.log(car2);
