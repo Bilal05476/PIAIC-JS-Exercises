@@ -1,0 +1,21 @@
+// Exercise 23
+// var name = "Joe";
+// document.write(`${name === "John" ? "I predict true" : "I pridict false"}  <br />`);
+// var age = 19;
+// document.write(`${age >= 18 ? "I predict true" : "I pridict false"} <br />`);
+// var gender = "male";
+// document.write(`${gender === "male" ? "I predict true" : "I pridict false"} <br />`);
+// var section = "B";
+// document.write(`${section === "B" ? "I predict true" : "I pridict false"} <br />`);
+// var institute = "Iqra";
+// document.write(`${institute === "PIAIC" ? "I predict true" : "I pridict false"} <br />`);
+// var country = "PK";
+// document.write(`${country === "UK" ? "I predict true" : "I pridict false"} <br />`);
+// var city = "Karachi";
+// document.write(`${city === "karachi" ? "I predict true" : "I pridict false"} <br />`);
+// var area = "DHA";
+// document.write(`${area === "DHA" ? "I predict true" : "I pridict false"} <br />`);
+// var block = "13D";
+// document.write(`${block === "13B" ? "I predict true" : "I pridict false"} <br />`);
+// var enrolled = true;
+// document.write(`${enrolled === true ? "I predict true" : "I pridict false"} <br />`);
